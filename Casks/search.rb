@@ -2,8 +2,7 @@ cask "search" do
   version "1.0.1"
   sha256 "2bc39f406a7eab578caaae4316300bcd23279e6a90a52fa27cae7d7e672e66f2"
 
-  url "https://github.com/driceroland/Search/releases/download/v#{version}/Search.dmg",
-      verified: "github.com/driceroland/Search/"
+  url "https://github.com/driceroland/Search/releases/download/v#{version}/Search.dmg"
   name "Search"
   desc "Browser with nothing in the way"
   homepage "https://officecommun.com/search"
