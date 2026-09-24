@@ -1,6 +1,6 @@
 cask "search" do
-  version "1.0.2"
-  sha256 "97f80054103ed36fc6738b6942941c3524d04289fc3794dcdba376e6bf42e3b5"
+  version "1.0.3"
+  sha256 "a30bc15d4e619ff9d2038886d7bc30f80721dede806bd4a03d4653402deeb6ef"
 
   url "https://github.com/driceroland/Search/releases/download/v#{version}/Search.dmg"
   name "Search"
