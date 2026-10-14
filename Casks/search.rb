@@ -1,8 +1,11 @@
 cask "search" do
-  version "1.0.4"
-  sha256 "657ca99f1950f28f2a77d93e265edf874fbc69dabe284819e17818e1914665c5"
+  arch arm: "", intel: "-Intel"
 
-  url "https://github.com/driceroland/Search/releases/download/v#{version}/Search.dmg"
+  version "1.0.5"
+  sha256 arm:   "4c750f505cf108bf06fc3be256abaeab3c0dfa1a587bec7036f1bbe732466ea1",
+         intel: "9feab786e545b9f4a40b68bd985cd1f24956b772abd1bdf9e91198e3812b1b64"
+
+  url "https://github.com/driceroland/Search/releases/download/v#{version}/Search#{arch}.dmg"
   name "Search"
   desc "Browser with nothing in the way"
   homepage "https://officecommun.com/search"
@@ -13,7 +16,6 @@ cask "search" do
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "Search.app"
