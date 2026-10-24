@@ -2,8 +2,8 @@ cask "search" do
   arch arm: "", intel: "-Intel"
 
   version "1.0.6"
-  sha256 arm:   "a0332faf6eeadd2ee8a7f2af2e05d95c9689ba72081688ae7e27628c9c24e4e7",
-         intel: "828dfb544408832e7d1b9cfd447679dc5cd8c55968e06dc853a430aced4dd3a0"
+  sha256 arm:   "c7ec6f1d6c790daf2f193beff8a156736070e90910bdb7c861c1acf2db1ef820",
+         intel: "d0890a9968bd506da9b9577fa4039084662164971fd1f318f7c2be9687586bab"
 
   url "https://github.com/driceroland/Search/releases/download/v#{version}/Search#{arch}.dmg"
   name "Search"
